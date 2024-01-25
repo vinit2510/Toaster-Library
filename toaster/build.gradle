@@ -9,7 +9,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        minSdk 24
+        minSdk 23
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -48,7 +48,7 @@ afterEvaluate{
 
                 groupId='com.github.vinit2510'
                 artifactId = 'toaster'
-                version = '1.0'
+                version = '2.0'
             }
         }
     }
